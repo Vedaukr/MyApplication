@@ -8,3 +8,11 @@
 * Dagger 2
 * Firebase Auth
 * Firebase Realtime database.
+
+## Screenshots
+![login](./screenshots/login.PNG)
+![signup](./screenshots/signup.PNG)
+![mychats](./screenshots/mychats.PNG)
+![search](./screenshots/search.PNG)
+![messages](./screenshots/messages.PNG)
+![unread](./screenshots/unread.PNG)
