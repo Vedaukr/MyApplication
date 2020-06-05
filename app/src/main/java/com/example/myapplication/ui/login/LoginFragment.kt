@@ -65,29 +65,6 @@ class LoginFragment: BaseFragment(), TextView.OnEditorActionListener {
         (activity as MainActivity).hideToolbar()
 
         (passwordEt as EditText).setOnEditorActionListener(this)
-
-//        view.rootView.setOnApplyWindowInsetsListener {v, insets ->
-//            logoLL?.setPaddingRelative(0, insets.systemWindowInsetTop, 0 , 0)
-//
-//            val systemWindowInsets = with(insets) {
-//                Rect(
-//                    systemWindowInsetLeft,
-//                    systemWindowInsetTop,
-//                    systemWindowInsetRight,
-//                    systemWindowInsetBottom
-//                )
-//            }
-//
-//            val keyboardHeight = systemWindowInsets.bottom
-//            if (keyboardHeight > 130) {
-//                onKeyboardVisible()
-//
-//            } else {
-//                onKeyboardHidden()
-//            }
-//
-//            return@setOnApplyWindowInsetsListener  insets.consumeSystemWindowInsets()
-//        }
     }
 
     override fun onStop() {
@@ -96,14 +73,11 @@ class LoginFragment: BaseFragment(), TextView.OnEditorActionListener {
     }
 
     private fun onKeyboardVisible() {
-//        logoLL?.makeGone()
         textView5?.makeGone()
-//        textView5?.makeGone()
         view?.requestLayout()
     }
 
     private fun onKeyboardHidden() {
-//        logoLL?.makeVisible()
         textView5?.makeVisible()
     }
 
